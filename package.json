@@ -1,0 +1,23 @@
+{
+  "name": "qzbrief",
+  "version": "0.0.0",
+  "description": "Quartz's daily brief on SRCCON, in your command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Quartz",
+    "qz",
+    "SRCCON"
+  ],
+  "author": "Quartz",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "colors": "^0.6.2",
+    "commander": "^2.3.0",
+    "json": "^9.0.1",
+    "wordwrap": "0.0.2"
+  }
+}
