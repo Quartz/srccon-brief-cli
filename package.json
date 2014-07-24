@@ -1,10 +1,17 @@
 {
-  "name": "qzbrief",
-  "version": "0.0.0",
+  "name": "srccon-brief",
+  "version": "0.0.6",
   "description": "Quartz's daily brief on SRCCON, in your command line",
-  "main": "index.js",
+  "main": "./index.js",
+  "bin": {
+    "srccon-brief": "./lib/cmd.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:Quartz/srccon-brief-cli.git"
   },
   "keywords": [
     "Quartz",
@@ -12,12 +19,14 @@
     "SRCCON"
   ],
   "author": "Quartz",
+  "engines": {
+    "node": ">=0.8.0"
+  },
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.17.0",
     "colors": "^0.6.2",
     "commander": "^2.3.0",
-    "json": "^9.0.1",
     "wordwrap": "0.0.2"
   }
 }
